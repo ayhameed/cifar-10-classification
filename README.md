@@ -56,6 +56,7 @@ This will train a simple convolutional neural network (CNN) model using the CIFA
 - `download_dataset.py`: Script to download and extract the CIFAR-10 dataset     
 - `requirements.txt`: List of required packages
 - `image_classification_v2.ipynb`: Jupyter notebook for training and predicting the CIFAR-10 dataset
-- `README.md`: This file    
+- `README.md`: This file 
+- `model_prediction.ipynb`: Jupyter notebook for predicting the CIFAR-10 dataset   
 
 
