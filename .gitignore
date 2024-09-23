@@ -1,14 +1,14 @@
 cifar-10-batches-py/
 cifar-10-python.tar.gz
-best_model.pth
-image_classification_v1.ipynb
-Cifar.tar.gz
+
 notebooks/image_classification_v2.ipynb
 notebooks/model_prediction.ipynb
-saved_model/*
-!saved_model/
-dataset/*
-!dataset/
 
 __pycache__/
 *.py[cod]
+
+saved_model/*
+!saved_model/
+
+dataset/*
+!dataset/
