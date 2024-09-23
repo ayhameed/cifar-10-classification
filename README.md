@@ -24,8 +24,8 @@ This project aims to work with the CIFAR-10 dataset, a widely used benchmark in 
 ### Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/ayhameed/object_classification.git
-   cd object_classification
+   git clone https://github.com/ayhameed/cifar-10-classification
+   cd cifar-10-classification
    ```
 
 2. Install the required packages:
