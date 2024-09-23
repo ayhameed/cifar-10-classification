@@ -24,8 +24,8 @@ This project aims to work with the CIFAR-10 dataset, a widely used benchmark in 
 ### Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/ayhameed/cifar-10-classification.git
-   cd cifar-10-classification
+   git clone https://github.com/ayhameed/object_classification.git
+   cd object_classification
    ```
 
 2. Install the required packages:
@@ -35,28 +35,17 @@ This project aims to work with the CIFAR-10 dataset, a widely used benchmark in 
 
 ## Dataset
 
-The CIFAR-10 dataset is automatically downloaded and extracted using the `download_dataset.py` script.
+The CIFAR-10 dataset is automatically downloaded and extracted using the `download_and_extract_dataset.py` script.
 
 To download and extractthe dataset, run:
 ```
-python download_dataset.py
+python3 download_and_extract_dataset.py
 ```
 
 ## Usage
 
-To train a model on the CIFAR-10 dataset, use the following command:
-```
-run the image_classification_v2 jupyter notebook
-```
 
-This will train a simple convolutional neural network (CNN) model using the CIFAR-10 dataset.
 
 ## File Structure
-
-- `download_dataset.py`: Script to download and extract the CIFAR-10 dataset     
-- `requirements.txt`: List of required packages
-- `image_classification_v2.ipynb`: Jupyter notebook for training and predicting the CIFAR-10 dataset
-- `README.md`: This file 
-- `model_prediction.ipynb`: Jupyter notebook for predicting the CIFAR-10 dataset   
 
 
