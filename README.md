@@ -55,7 +55,8 @@ cifar-10-classification/
 │   └── cifar-10-batches-py/  # Directory where CIFAR-10 data batches are stored
 │
 ├── data/
-│   └── prepareData.py        # Script for preparing the CIFAR-10 dataset
+|   └── getDataset.py         # Script to download and extract the CIFAR-10 dataset
+│   └── prepareData.py        # Script to preparing the CIFAR-10 dataset
 │
 ├── image_preprocessing/
 │   └── imagePrep.py          # Script for image preprocessing tasks
