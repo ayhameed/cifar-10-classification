@@ -27,10 +27,17 @@ This project aims to work with the CIFAR-10 dataset, a widely used benchmark in 
    cd cifar-10-classification
    ```
 2. Install the required packages:
-   ```sh
+   ```python
    pip install -r requirements.txt
    ```
-
+3. Create dataset directory:
+   ```sh
+   mkdir dataset
+   ```
+4. Create saved_model directory:
+   ```sh
+   mkdir saved_model
+   ```
 ## Dataset
 The CIFAR-10 dataset is automatically downloaded and extracted using the `download_and_extract_dataset.py` script. To download and extract the dataset, run:
    ```sh
