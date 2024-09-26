@@ -80,3 +80,31 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the MIT License.
+
+### Memory Forensics
+Step 1: Install gdb (mac)
+```sh
+brew install gdb
+```
+
+Step 2: Code Signing GDB
+macOS requires GDB to be code-signed to run properly. Follow these steps to sign GDB:
+1. Open the Keychain Access application.
+2. In the menu bar, go to Keychain Access > Certificate Assistant > Create a Certificate.
+3. Name the certificate (e.g., gdb-cert), set Identity Type to Self Signed Root, and Certificate Type to Code Signing.
+4. Click Create and then close the dialog.
+5. Find your new certificate in the Keychain Access, right-click it, and select Get Info.
+6. Expand the Trust section and set Code Signing to Always Trust.
+7.Close the dialog and enter your password to save changes.
+
+Step 4: Sign GDB
+1. Run the following command in the Terminal to sign GDB:
+```Bash
+   sudo codesign -s gdb-cert $(which gdb)
+```
+
+Step 5: Run GDB
+1. Run the following command in the Terminal to start GDB:
+```Bash
+   gdb
+```
